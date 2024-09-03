@@ -1,0 +1,25 @@
+.content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.header {
+  font-size: 42px;
+}
+.img {
+  display: flex;
+  margin: 0 auto;
+  height: 20vh;
+  width: 80%;
+  border-radius: 5%;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  content: "" !important;
+}
+.next-slick-arrow,
+.prev-slick-arrow {
+  color: #000000;
+  font-size: 1rem;
+  margin-top: -5rem;
+}
